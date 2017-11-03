@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed');
+body, ul{
+	margin:0px;
+	padding:0px;
+}
+	#header{
+		background-color : black;
+		height:50px;
+		width: 100%;
+		
+	}
+	#nav_ul{
+		list-style-type:none;
+		
+	}
+	.nav_li{
+		float:left;
+		padding:0px 10px;
+		color:white;
+		position:relative;
+		margin-left:20px;
+		width:101px;
+		text-align:center;
+	}.nav_a{
+		color:white;
+		text-decoration:none;
+		line-height:50px;
+		
+	}.nav_li:Hover{
+		background-color:black;
+		
+	}.nav_li:Hover .nav_a {
+		color:red;
+		
+	}.nav_li:Hover .nav_dropdown{
+		display:block;
+	}#nav_div{
+		float:right;
+		margin-right:50px;
+		
+	}.dropdwon_a{
+		padding:10px 0;
+		display:block;
+		width:101px;
+		color:white;
+		
+		line-height:15px;
+		text-decoration:none;
+		font-size : 13px;
+		
+	} #nav_dropdown{
+	width : 101px;
+	left:0px;
+	display:none;
+	}.dropdown_a:HOVER {
+		background-color:white;
+		color:black;
+		
+	}.nav_li:Hover .nav_dropdown{
+		display:block;
+	}
+	#span_id{
+	color:white;
+	font-size:13px;
+	line-height:35px;
+	font-weight:bold;
+	margin-left:30px;
+	}#dropdown{
+	background-color: black;
+	padding:5px;
+	display:none;
+	
+	}#dropdown>a{
+	display:block;
+	color:white;
+	text-decoration:none;
+	font-size:10px;
+	padding-bottom:5px;
+	
+	}#dropdown>a:HOVER{
+	text-decoration: underline;
+	
+	
+	} .nav_li:hover #dropdown{
+	display:block;
+	}
+	
+	
+	 .logo_span{
+			color:black;
+			font-size:55px;
+			
+			
+	
+	} 
+	#logo > a {
+	
+	text-decoration: none;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	} #mainlogo{
+		border : 1px solid red;
+		width:135px;
+		text-align:center;
+		margin:0 auto;
+		padding:20px 0;
+	}
+	#nav {
+	height : 50px;
+	background-color: ##285943;
+	}
+	
+	
+	</style>
+
+	</head>
+	<body>
+
+
+<div id = "header">
+	<ul class = "nav_ul">
+	<span id="span_id">BOOKMARK+</span>
+		<div ="nav_div">
+		<li class="nav_li"><a class="nav_a" href="#">로그인</a></li>
+		<li class="nav_li"><a class="nav_a" href="#">회원가입</a></li>
+		<li class="nav_li"><a class="nav_a" href="#">마이페이지▲</a>
+		<div id = "dropdown">
+			<a href="#" > 장바구니 </a>
+			<a href="#" > 주문조회</a>
+			<a href="#" > 위시리스트</a>
+			<a href="#" > 적립금 조회</a>
+			<a href="#" > 예치금조회</a>
+			<a href="#" > 할인쿠폰</a>
+			<a href="#" > 내게시글</a>
+			<a href="#" > 오늘본상품</a>
+		</div>
+		</li>
+		<li class="nav_li"><a class="nav_a" href="#">고객행복센터</a></li>
+		</div>
+		
+	</ul>
+	
+
+
+
+</div>
+	<div id = "logo">
+	<a href="#">
+	<div id = "mainlogo">
+		<span class = "logo_span"> Crazy</span>
+	</div>
+	</a>
+
+</div>
+
+<ul class = "nav_ul">
+<div class = "nav">
+		<li class="nav_li"><a class="nav_a" href="#">로그인</a></li>
+		<li class="nav_li"><a class="nav_a" href="#">회원가입</a></li>
+		<li class="nav_li"><a class="nav_a" href="#">마이페이지▲</a></li>
+</ul>
+</div>
+</body>
+</html>

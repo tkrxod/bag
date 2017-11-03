@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<Style type="text/css">
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Condensed');
+body,ul{
+	margin:0px;
+	padding:0px;
+}
+	div{
+		display:block;
+	}
+#wrap{
+    position: relative;
+    width: 100%;
+    min-width:1000px;
+    margin:0 auto;
+    clear: both;
+}
+	#nav{
+		width:1500px;
+		height:50px;
+		background-color:white;
+		margin:0 auto;
+	
+	}
+	#nav_ul{
+		list-style-type:none;
+		float:right;
+		margin-right:40px;
+		font-size:9px;
+	}
+	.nav_li{
+		color:black;
+		float:left;
+		width:101px;
+		text-align:center;
+		display: inline-block;
+		line-height:25px;
+		height:30px;
+		margin-top:10px;
+		
+		
+	
+	}
+	.nav_a{
+		color:#7e7e7e;
+		display:block;
+		border-right:1px solid #e5e5e5;
+		text-decoration:none;
+		line-height:10px;
+		margin-top:5px;
+	}
+	#nav_a2{
+		color:#7e7e7e;
+		text-decoration:none;
+		line-height:45px;
+		margin-left:30px;
+		
+	}
+	.nav_a3{
+		margin-top:5px;
+		color:#7e7e7e;
+		display:block;
+		text-decoration:none;
+		line-height:10px;
+	}
+	#title_01{
+		font-weight: bold;
+		font-size: 7px;ng:15px;
+		margin-top:10px;
+		padding-right:15px;
+		border-right:1px solid #e5e5e5;
+		
+	}
+	.bar{
+		width:1px;
+		height:8px;
+		background-color: #585858;
+		margin:16px 12px;
+		
+	}h1{
+	display:block;
+	font-size:2em;
+	font-weight:bold;
+	text-align:center;
+	-webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    
+	}
+	#img{
+		color:#717171;
+		text-decoration:none;
+		width:100%;
+		text-align: center;
+	}
+	#nav_wrap{
+		border-bottom: 1px solid #edf3f7;
+	}
+	.con_wrap{
+		width:1500px;
+		position:relative;
+		margin:0 auto;
+	}
+	#menu{
+	background: #ffffff;
+    height: 49px;
+    border: none;
+    margin: 0;
+    width: 100%;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #e5e5e5;
+	}
+	#lnb{
+	    position: relative;
+  		margin-left: 301px;
+	}
+	.cat{
+		list-style-type:none;
+	    display: table;
+    	margin: 0;
+    	padding-left: 0;
+	}
+	.cat>li{
+	display: table-cell;
+    float: left;
+    position: relative;
+	}
+	.cat>li>a{
+    		padding: 0 51px;
+    		line-height: 47px;
+   			 font-size: 12px;
+   			 text-decoration: none;
+			 color: #787878;
+			 font-weight: normal;
+			 height: 49px;
+	}
+	.cat1:HOVER .db{
+		display:block;
+		
+	}	.cat2:HOVER .db{
+		display:block;
+		}
+		.cat5:HOVER .db{
+		display:block;
+		}
+	.db{
+			display:none;
+			list-style-type:none;
+		    width: 145px;
+		    border: 1px solid #cecece;
+		    position: absolute;
+		    top: 49px;
+		    left: 0;
+		    background: #fff;
+		    padding: 10px 0;
+		    
+	}
+	
+	.db>li{
+		float:none;
+		text-align:left;
+		display: list-item;
+    	text-align: -webkit-match-parent;
+	}
+		.bab{
+		height: 25px;
+	    line-height: 25px;
+	    padding: 0 20px;
+	    font-weight: normal;
+	    font-size: 12px;
+	    color: #666;
+	    display: inline-block;
+	    text-decoration: none;
+		}
+		.bab:HOVER{
+		font-weight: bold;
+		}
+		#footer{
+		padding-bottom:53px;
+		
+		}
+		.footer{
+		    padding: 18px 0 60px;
+		    background: #f8f9fa;
+		    border-top: 1px solid #e4eef3;
+		    position: relative;
+		}
+		#con_wrap{
+		    display: table;
+		    width: 1300px;
+		    min-height: 100%;
+		    margin: 0 auto;
+		    height:1000px;
+		    
+		    }
+		    .footer_ul{
+		    list-style-type: none;
+		    
+		    }.footer_ul>li{
+		        background: none;
+			    margin: 0 25px 0 0;
+			    padding: 0;
+			    display: inline-block;
+			    float: none;
+			    letter-spacing: -1px;
+		    }
+			.footer_ul>li>a{
+				text-decoration: none;
+				color: #333;
+			    font-size: 12px;
+			    vertical-align: top;
+			    letter-spacing: -1px;
+			    font-weight: normal;
+			}
+			#footer_a{
+				font-weight: bold;
+			}
+			.footer_main{
+		    padding-top: 15px;
+		    font-size: 11px;
+  		    line-height: 20px;
+  		    display: table-cell;
+   			vertical-align: middle;
+   			padding: 10px 0 0;
+   			
+		}
+		.footer_main>ul{
+			color: #8a8a8a;
+			overflow: hidden;
+			list-style: none;
+			display: block;
+			margin-left:110px;
+		}.footer_main>ul>li{
+			display: inline-block;
+		}.footer_img{
+			vertical-align: middle;	
+		
+	}
+		
+
+	/*box-sizing : border-box  */
+</Style>
+</head>
+<body>
+		<div id="wrap">
+		<div id="nav_wrap">
+	<div id="nav">
+	<span id="title_01"><a href="#" id="nav_a2">★BOOkMARK </a></span>
+	<ul id="nav_ul">
+		<li class="nav_li"><a class="nav_a" href="#"> LOGIN </a></li>
+		<li class="nav_li"><a class="nav_a"href="#"> JOIN US </a></li>
+		<li class="nav_li"><a class="nav_a"href="#"> SHOOPING CART </a></li>
+		<li class="nav_li"><a class="nav_a"href="#"> ORDER </a></li>
+		<li class="nav_li"><a class="nav_a3"href="#"> MYPAGE </a></li>
+</ul>
+
+</div>
+	</div>
+	<div class="con_wrap">
+	<h1>
+	<a href="02.html" id="img">꽁's</a>
+	</h1>
+	</div>
+</div>
+<div id="menu">
+	<div class="con_wrap">
+		<div id="lnb">
+			<ul class="cat">
+			<li class="cat1"><a href="#">MANS</a>
+			<ul class="db">
+				<li><a href="#" class="bab">티셔츠</a>
+				<li><a href="#" class="bab">셔츠/남방</a>
+				<li><a href="#" class="bab">바지</a>
+				<li><a href="#" class="bab">재킷</a>
+			
+			</ul></li>
+			<li class="cat2"><a href="#">WOMANS</a>
+				<ul class="db">
+				<li><a href="#" class="bab">원피스</a>
+				<li><a href="#" class="bab">티셔츠</a>
+				<li><a href="#" class="bab">블라우스</a>
+				<li><a href="#" class="bab">재킷</a>
+				</ul></li>
+			<li class="cat3"><a href="#">BEST ITEM</a></li>
+			<li class="cat4"><a href="#">NEW ARRIVAL</a></li>
+			<li class="cat5"><a href="#">LIST</a>
+			<ul class="db">
+				<li><a href="#" class="bab">남성티셔츠</a>
+				<li><a href="#" class="bab">남성셔츠/남방</a>
+				<li><a href="#" class="bab">바지</a>
+				<li><a href="#" class="bab">남성재킷</a>
+				<li><a href="#" class="bab">원피스</a>
+				<li><a href="#" class="bab">여성티셔츠</a>
+				<li><a href="#" class="bab">블라우스</a>
+				<li><a href="#" class="bab">여성재킷</a>
+				</ul>
+			
+			
+			</li>
+			<li class="cat6"><a href="#">EVENT</a></li>
+			
+			</ul>
+		</div>
+	</div>
+
+
+</div>
+    <div id="con_wrap">
+</div>
+
+<div id="footer">
+	<div class="footer">
+		<div class=con_wrap>
+			<div class="footer-wrap">
+			<div class="link">
+			<ul class="footer_ul">
+		<li><a href="#">회사소개</a></li>
+		<li><a href="#">이용약관</a></li>
+		<li><a href="#" id="footer_a">개인정보처리방침</a></li>
+		<li><a href="#">이용안내</a></li>
+		<li><a href="#">공지사항</a></li>
+		
+		</ul>
+		</div>
+		</div>
+	</div>
+	<div class="footer_main">
+	<ul>
+	<li>광주광역시 북구 한국경영원 디지털 웹솔루션 1기 공성현</li>
+	<br><li>(주)한국경영원</li>
+	<li>수강생 : 공성현</li>
+	<br><li>사업자등록번호 : 114-81-72568 <img class="footer_img" src="http://shop.shesmiss.co.kr//data/skin/front/designbook_windyB/img/btn/btn_bizinfo.gif">
+	
+	</li>
+	</ul>
+	</div>
+</div>
+</div>
+</body>
+</html>
