@@ -3,7 +3,7 @@
 
 # 1주차 과제 (2020.05.21)
 
-*   [링크 텍스트](https://)
+*   [링크 텍스트](https://github.com/tkrxod/bag/blob/master/1%EC%A3%BC%EC%B0%A8_%EA%B3%BC%EC%A0%9C.ipynb)
 
 # 2주차 과제(2020.05.28)
 
