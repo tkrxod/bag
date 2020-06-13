@@ -5,16 +5,9 @@
 
 *   [인공지능 사례 분석](https://github.com/tkrxod/bag/blob/master/1%EC%A3%BC%EC%B0%A8_%EA%B3%BC%EC%A0%9C.ipynb)
 
-
-
-
-
-
-
-
 # 2주차 과제(2020.05.28)
 
-* [링크 텍스트](https://)
+* [파이썬 인공지능과 기초수학](https://github.com/tkrxod/bag/blob/master/2%EC%A3%BC%EC%B0%A8%EA%B3%BC%EC%A0%9C.ipynb)
 
 # 3주차 과제(2020.06.04)
 
