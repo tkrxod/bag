@@ -15,4 +15,4 @@
 
 # 4주차 과제(2020.06.11)
 
-* [링크 텍스트](https://)
+* [딥러닝 용어 정리, 클론 코딩, 딥러닝 순전파 & 역전파 계산](https://github.com/tkrxod/bag/blob/master/4%EC%A3%BC%EC%B0%A8_%EA%B3%BC%EC%A0%9C.ipynb)
